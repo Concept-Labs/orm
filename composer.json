@@ -1,0 +1,37 @@
+{
+    "name": "concept-labs/orm",
+    "description": "(C)oncept-Labs ORM",
+    "keywords": ["php","ORM"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "mtr",
+            "email": "info.concept.labs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "concept-labs/exception": "^1",
+        "concept-labs/config": "^1",
+        "concept-labs/dbc": "^1",
+        "concept-labs/dbal": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concept\\ORM\\": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "extra": {
+        "concept": {
+            "include": "concept.json"
+        }
+    }
+   
+
+}
